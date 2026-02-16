@@ -58,7 +58,7 @@ Roccia, B.A., Lind, P. and Gebhardt, C.G., , "Data-driven computational mechanic
 
 ## 📂 Repository Structure
 - `DDCM Duffing`  
-  Folder containing a simle and clean implementation of a DDCM solver for the Duffing equation.
+  Folder containing a simple and clean implementation of a DDCM solver for the Duffing equation.
 ---
 
 
