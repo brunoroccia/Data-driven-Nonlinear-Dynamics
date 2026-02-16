@@ -152,11 +152,11 @@ Choose a license appropriate for your journal and institution (e.g., MIT, BSD-3-
 If you use this code, please cite the associated journal publication:
 
 ```bibtex
-@article{YOURKEY,
-  title   = {YOUR TITLE},
-  author  = {YOUR AUTHORS},
-  journal = {YOUR JOURNAL},
-  year    = {YEAR},
-  doi     = {DOI}
+@article{RocciaDDND2026,
+  title   = {Data-driven computational mechanics meets nonlinear dynamics: unlocking bifurcations, limit cycle oscillations, chaos and synchronization},
+  author  = {Roccia B.A., and Lind, P., and Gebhardt, C.G.},
+  journal = {XXX},
+  year    = {2026},
+  doi     = {DOI:}
 }
 ```
