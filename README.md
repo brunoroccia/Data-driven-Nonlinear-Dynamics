@@ -1,10 +1,10 @@
-# Data Driven for Electric Circuits ⚡
+# Data Driven for Nonlinear Dynamics ⚡
 
-This repository contains MATLAB implementations of a **data-driven computational framework** for the simulation of electric circuits. The approach replaces traditional constitutive models with **finite sets of data points** (synthetic or experimental), enforcing them through a feedback operator within a **variational time-integration scheme**.
+This repository contains MATLAB implementations of a **data-driven computational framework** for the simulation of nonlinear dynamic phenomena. The approach replaces traditional constitutive models with **finite sets of data points** (synthetic or experimental), enforcing them through a feedback operator within a **variational time-integration scheme**.
 
 -------------------------------------------------------------------------------
 
-# Repository for the DDEC
+# Repository for the DDND
 
 This software can be used and distributed under the following license:
 
@@ -20,25 +20,31 @@ This work is licensed under a
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 
 ----------------------------------------------------------------------------------------------------
-**DDEC:** <br />
-First version released on September 01, 2025.
+**DDND:** <br />
+First version released on February 16, 2026.
 
 **Warning:** <br />
 It works on Matlab 7+ <br />
 A technical description of the implementation can be found in the following paper:
 
-Gebhardt, C.G., Roccia, B.A., Bossio, J.M., and Bossio, G.R., , "A framework for data-driven simulation of electrical circuits based on discrete-continuous optimization," submitted to IEEE Access, 2025. 
+Roccia, B.A., Lind, P. and Gebhardt, C.G., , "Data-driven computational mechanics meets nonlinear dynamics: unlocking bifurcations, limit cycle oscillations, chaos and synchronization," to be submitted, 2026. 
 
 -------------------------------------------------------------------------------
 
 ## ✨ Features
-- Circuit assembly from **graph representations** with inductors and capacitors.  
-- Non-holonomic constraints handling via reduced incidence matrices.  
-- **Alternating Direction Method (ADM)** solver for DDCM applied to RLC-type networks.  
-- Synthetic capacitor data generation with nonlinear effects.  
+- Variational integrators formulated on QxQ, T*Q, and TQ.
+- Discrete Forward Problem for Nonlinear Dynamical Systems for every variational algorithm.
+- Data-Driven Discrete forward-dynamics Problem for Nonlinear Dynami-cal Systems.
+- Characterization of the associated KKT system.  
+- **Alternating Direction Method (ADM)** solver for DDCM applied to nonlinear dynamic systems.  
+- DDCM verification.
+- Nonlinear systems studied: forced Duffing equation, van der Pol-Duffing equation, Kuramoto oscillator.  
 - Tools for post-processing:
-  - Phase-space plots (charge–voltage pairs vs. data)  
-  - Time evolution of charges  
+  - Poincaré maps
+  - Basin of attractions
+  - Limit cycle oscillations
+  - Chaos
+  - Basins of synchronization  
   - Residuum, error cost, and global cost function histories  
 
 ------------------------------------------------------------------------------
