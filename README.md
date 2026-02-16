@@ -4,6 +4,13 @@ This repository contains MATLAB implementations of a **data-driven computational
 
 -------------------------------------------------------------------------------
 
+# Authors: 
+        Dr. Bruno A Roccia, Researcher at Bergen Offshore Wind Centre, Geophysical Institute, University of Bergen, Norway
+        Prof. Pedro Lind, Kristiania University of Applied Sciences \& Oslo Metropolitan University, Norway
+        Prof. Cristian G. Gebhardt, Researcher at Bergen Offshore Wind Centre, Geophysical Institute, University of Bergen, Norway
+
+-------------------------------------------------------------------------------
+
 # Repository for the DDND
 
 This software can be used and distributed under the following license:
