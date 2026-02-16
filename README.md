@@ -50,14 +50,18 @@ Roccia, B.A., Lind, P. and Gebhardt, C.G., , "Data-driven computational mechanic
 ------------------------------------------------------------------------------
 
 ## 📂 Repository Structure
-- `DDEC.m` – Example script that assembles and simulates a circuit using DDCM.  
-- `circuit_assembly.m` – Builds circuit matrices (L, C, constraints).  
-- `KKT_Time.m` – Constructs KKT matrices for time integration.
-- `KKT_initialState.m` - Constructs KKT matrices for time step 0
-- `phiESOperator.m` – Feedback operator: projects trial states to closest data points.  
-- `DDCM_ADM_Electric.m` – Core solver implementing DDCM with ADM.
-
+- `DDCM_Duffing.m`  
+  Executable example script: defines parameters, generates a dataset, runs the solver, and plots results.
+- `DDCMSolver.m`  
+  Main solver: DDCM forward dynamics with an ADM fixed-point loop at each time step.
+- `MyForce.m`  
+  External force definitions (cosine, sine with ramp-on, sigmoid ramp, smoothstep).
+- `phiESOperator.m`  
+  Wrapper that applies the elementwise projection `phiES` to each stage/element.
+- `phiES.m`  
+  Elementwise data-driven projection: selects the closest discrete point in the dataset.
 ---
+
 
 
 ## Contact
