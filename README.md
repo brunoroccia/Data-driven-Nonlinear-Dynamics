@@ -57,16 +57,8 @@ Roccia, B.A., Lind, P. and Gebhardt, C.G., , "Data-driven computational mechanic
 ------------------------------------------------------------------------------
 
 ## 📂 Repository Structure
-- `DDCM_Duffing.m`  
-  Executable example script: defines parameters, generates a dataset, runs the solver, and plots results.
-- `DDCMSolver.m`  
-  Main solver: DDCM forward dynamics with an ADM fixed-point loop at each time step.
-- `MyForce.m`  
-  External force definitions (cosine, sine with ramp-on, sigmoid ramp, smoothstep).
-- `phiESOperator.m`  
-  Wrapper that applies the elementwise projection `phiES` to each stage/element.
-- `phiES.m`  
-  Elementwise data-driven projection: selects the closest discrete point in the dataset.
+- `DDCM Duffing`  
+  Folder containing a simle and clean implementation of a DDCM solver for the Duffing equation.
 ---
 
 
